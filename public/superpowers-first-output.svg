@@ -1,0 +1,93 @@
+<svg width="1672" height="941" viewBox="0 0 1672 941" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1672" y2="941" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="0.58" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F6F8FF"/>
+    </linearGradient>
+    <radialGradient id="violet" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1320 148) rotate(139) scale(620 390)">
+      <stop stop-color="#EEE9FF"/>
+      <stop offset="1" stop-color="#EEE9FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mint" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(236 792) rotate(-24) scale(560 330)">
+      <stop stop-color="#EAF8F1"/>
+      <stop offset="1" stop-color="#EAF8F1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="flow" x1="194" y1="458" x2="1478" y2="458" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C63FF"/>
+      <stop offset="0.48" stop-color="#2D8CFF"/>
+      <stop offset="1" stop-color="#42B883"/>
+    </linearGradient>
+    <filter id="shadow" x="-14%" y="-28%" width="128%" height="156%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#243B63" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .font { font-family: Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif; }
+      .eyebrow { fill: #6C63FF; font-size: 24px; font-weight: 900; letter-spacing: 2px; }
+      .title { fill: #081534; font-size: 58px; font-weight: 920; letter-spacing: -1px; }
+      .subtitle { fill: #56647D; font-size: 24px; font-weight: 520; }
+      .card-kicker { font-size: 18px; font-weight: 900; letter-spacing: 1px; }
+      .card-title { fill: #07142F; font-size: 30px; font-weight: 920; letter-spacing: -0.3px; }
+      .body { fill: #33425F; font-size: 20px; font-weight: 620; }
+      .muted { fill: #6B7892; font-size: 17px; font-weight: 540; }
+      .pill { font-size: 17px; font-weight: 850; }
+    </style>
+  </defs>
+
+  <rect width="1672" height="941" rx="18" fill="url(#bg)"/>
+  <rect width="1672" height="941" rx="18" fill="url(#violet)"/>
+  <rect width="1672" height="941" rx="18" fill="url(#mint)"/>
+
+  <text x="86" y="104" class="font eyebrow">SUPERPOWERS WORKFLOW</text>
+  <text x="86" y="178" class="font title">把“探索”变成结构化成果</text>
+  <text x="90" y="236" class="font subtitle">一个 AI 原生的探索 → 计划 → 验证工作流，先把问题想清楚，再把方案做扎实。</text>
+
+  <g filter="url(#shadow)">
+    <rect x="86" y="318" width="1500" height="356" rx="34" fill="white" fill-opacity="0.9" stroke="#E6ECF5"/>
+  </g>
+
+  <rect x="194" y="454" width="1284" height="8" rx="4" fill="#E5ECF7"/>
+  <rect x="194" y="454" width="1284" height="8" rx="4" fill="url(#flow)" opacity="0.78"/>
+
+  <g filter="url(#shadow)">
+    <rect x="118" y="372" width="326" height="242" rx="26" fill="#FCFAFF" stroke="#D8D1FF" stroke-width="1.5"/>
+    <text x="148" y="420" class="font card-kicker" fill="#6C63FF">01 EXPLORE</text>
+    <text x="148" y="470" class="font card-title">探索</text>
+    <text x="148" y="520" class="font body">澄清问题本质</text>
+    <text x="148" y="554" class="font body">找到关键约束与依赖</text>
+    <text x="148" y="588" class="font body">输出问题洞察</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="490" y="372" width="326" height="242" rx="26" fill="#FAFCFF" stroke="#BBD3FF" stroke-width="1.5"/>
+    <text x="520" y="420" class="font card-kicker" fill="#2D8CFF">02 PLAN</text>
+    <text x="520" y="470" class="font card-title">计划</text>
+    <text x="520" y="520" class="font body">拆解问题与里程碑</text>
+    <text x="520" y="554" class="font body">定义任务优先级</text>
+    <text x="520" y="588" class="font body">输出计划文档</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="862" y="372" width="326" height="242" rx="26" fill="#FBFFFD" stroke="#BEE6D1" stroke-width="1.5"/>
+    <text x="892" y="420" class="font card-kicker" fill="#2F9A69">03 VERIFY</text>
+    <text x="892" y="470" class="font card-title">验证</text>
+    <text x="892" y="520" class="font body">制定验证方法</text>
+    <text x="892" y="554" class="font body">执行验证并记录结果</text>
+    <text x="892" y="588" class="font body">输出验证报告</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1234" y="372" width="326" height="242" rx="26" fill="#F8FDFF" stroke="#BDEAF3" stroke-width="1.5"/>
+    <text x="1264" y="420" class="font card-kicker" fill="#19A8BD">04 HANDOFF</text>
+    <text x="1264" y="470" class="font card-title">交付</text>
+    <text x="1264" y="520" class="font body">整理最终产出物</text>
+    <text x="1264" y="554" class="font body">沉淀决策记录</text>
+    <text x="1264" y="588" class="font body">同步团队执行</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="238" y="744" width="1196" height="104" rx="34" fill="#101935"/>
+    <text x="302" y="807" class="font" fill="white" font-size="28" font-weight="920">核心变化</text>
+    <text x="474" y="807" class="font" fill="#D8DEEA" font-size="24" font-weight="620">少走弯路、结构化输出、团队对齐快，最终更可落地。</text>
+  </g>
+</svg>

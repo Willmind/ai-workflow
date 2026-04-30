@@ -1,0 +1,191 @@
+<svg width="1672" height="941" viewBox="0 0 1672 941" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1672" y2="941" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="0.55" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F3F7FF"/>
+    </linearGradient>
+    <linearGradient id="line" x1="116" y1="454" x2="1556" y2="454" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C63FF"/>
+      <stop offset="0.45" stop-color="#2D8CFF"/>
+      <stop offset="1" stop-color="#2CB8C8"/>
+    </linearGradient>
+    <radialGradient id="node1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(162 690) rotate(45) scale(34)">
+      <stop stop-color="#8FB4FF"/>
+      <stop offset="1" stop-color="#4D72F4"/>
+    </radialGradient>
+    <radialGradient id="node2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(428 690) rotate(45) scale(34)">
+      <stop stop-color="#A79CFF"/>
+      <stop offset="1" stop-color="#6C63FF"/>
+    </radialGradient>
+    <radialGradient id="node3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(701 690) rotate(45) scale(34)">
+      <stop stop-color="#78D9A9"/>
+      <stop offset="1" stop-color="#39A77A"/>
+    </radialGradient>
+    <radialGradient id="node4" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(967 690) rotate(45) scale(34)">
+      <stop stop-color="#84BEFF"/>
+      <stop offset="1" stop-color="#2D8CFF"/>
+    </radialGradient>
+    <radialGradient id="node5" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1221 690) rotate(45) scale(34)">
+      <stop stop-color="#76D9AE"/>
+      <stop offset="1" stop-color="#36A77E"/>
+    </radialGradient>
+    <radialGradient id="node6" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1487 690) rotate(45) scale(34)">
+      <stop stop-color="#78DCE8"/>
+      <stop offset="1" stop-color="#20B7CC"/>
+    </radialGradient>
+    <filter id="cardShadow" x="-16%" y="-24%" width="132%" height="152%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#2B456D" flood-opacity="0.10"/>
+    </filter>
+    <filter id="nodeShadow" x="-80%" y="-80%" width="260%" height="260%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#243B63" flood-opacity="0.18"/>
+    </filter>
+    <style>
+      .font { font-family: Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif; }
+      .title { fill: #081534; font-size: 54px; font-weight: 900; letter-spacing: 1px; }
+      .subtitle { fill: #50627F; font-size: 23px; font-weight: 500; }
+      .card-title { fill: #07142F; font-size: 24px; font-weight: 920; letter-spacing: -0.2px; }
+      .card-desc { fill: #55637C; font-size: 16px; font-weight: 520; }
+      .pill-text { fill: #10203B; font-size: 16px; font-weight: 750; }
+      .timeline-text { fill: #11213D; font-size: 18px; font-weight: 700; }
+      .small { fill: #738099; font-size: 15px; font-weight: 520; }
+    </style>
+  </defs>
+
+  <rect width="1672" height="941" rx="18" fill="url(#bg)"/>
+  <circle cx="1438" cy="112" r="260" fill="#EEF3FF" opacity="0.72"/>
+  <circle cx="156" cy="820" r="260" fill="#F0FFF9" opacity="0.5"/>
+
+  <text x="70" y="70" class="font" fill="#4D72F4" font-size="24" font-weight="850" letter-spacing="1.8">AI WORKFLOW PIPELINE</text>
+  <text x="70" y="137" class="font title">把 AI 变成流水线，让交付更快更稳</text>
+  <text x="70" y="188" class="font subtitle">从想法到代码落地，每一步都有 AI 加速，减少切换与对齐成本</text>
+
+  <rect x="184" y="451" width="1290" height="6" rx="3" fill="url(#line)" opacity="0.82"/>
+
+  <!-- Card 1 -->
+  <g filter="url(#cardShadow)">
+    <rect x="62" y="246" width="220" height="406" rx="26" fill="white" stroke="#E6ECF5"/>
+    <text x="172" y="328" text-anchor="middle" class="font card-title">输入上下文</text>
+    <text x="112" y="397" class="font card-desc">需求文档</text>
+    <text x="112" y="431" class="font card-desc">OpenSpec / API</text>
+    <text x="112" y="465" class="font card-desc">Figma 链接</text>
+    <rect x="100" y="582" width="142" height="38" rx="19" fill="#EEF5FF"/>
+    <text x="171" y="607" text-anchor="middle" class="font" fill="#2D8CFF" font-size="16" font-weight="850">问题先对齐</text>
+  </g>
+
+  <!-- Card 2 -->
+  <g filter="url(#cardShadow)">
+    <rect x="316" y="246" width="246" height="406" rx="26" fill="white" stroke="#E6ECF5"/>
+    <text x="439" y="328" text-anchor="middle" class="font card-title">superpowers</text>
+    <text x="439" y="397" text-anchor="middle" class="font card-desc">结构化探索 / 计划 / 验证</text>
+    <rect x="348" y="436" width="182" height="38" rx="19" fill="#F1EFFF"/>
+    <text x="439" y="461" text-anchor="middle" class="font pill-text">探索阶段站点</text>
+    <rect x="348" y="489" width="182" height="62" rx="14" fill="#F5F3FF"/>
+    <text x="439" y="516" text-anchor="middle" class="font pill-text">输出 1</text>
+    <text x="439" y="539" text-anchor="middle" class="font small">澄清问题 + 任务拆解</text>
+    <rect x="348" y="566" width="182" height="62" rx="14" fill="#F5F3FF"/>
+    <text x="439" y="593" text-anchor="middle" class="font pill-text">输出 2</text>
+    <text x="439" y="616" text-anchor="middle" class="font small">风险点 + 验证清单</text>
+  </g>
+
+  <!-- Card 3 -->
+  <g filter="url(#cardShadow)">
+    <rect x="596" y="246" width="228" height="406" rx="26" fill="white" stroke="#E6ECF5"/>
+    <text x="710" y="328" text-anchor="middle" class="font card-title">OpenSpec</text>
+    <text x="710" y="397" text-anchor="middle" class="font card-desc">接口规范驱动</text>
+    <text x="710" y="430" text-anchor="middle" class="font card-desc">类型与调用建议</text>
+    <rect x="630" y="581" width="158" height="38" rx="19" fill="#EAF8F1"/>
+    <text x="709" y="606" text-anchor="middle" class="font" fill="#30A675" font-size="16" font-weight="850">减少协作成本</text>
+  </g>
+
+  <!-- Card 4 -->
+  <g filter="url(#cardShadow)">
+    <rect x="856" y="246" width="240" height="406" rx="26" fill="white" stroke="#E6ECF5"/>
+    <text x="976" y="328" text-anchor="middle" class="font card-title">Cursor Rules</text>
+    <text x="976" y="397" text-anchor="middle" class="font card-desc">把项目规范变成</text>
+    <text x="976" y="430" text-anchor="middle" class="font card-desc">AI 的默认行为</text>
+    <rect x="888" y="462" width="176" height="38" rx="19" fill="#EFF6FF"/>
+    <text x="976" y="487" text-anchor="middle" class="font pill-text">编码护栏</text>
+    <rect x="888" y="515" width="176" height="62" rx="14" fill="#EFF6FF"/>
+    <text x="976" y="542" text-anchor="middle" class="font pill-text">实现阶段</text>
+    <text x="976" y="565" text-anchor="middle" class="font small">减少风格漂移与遗漏</text>
+    <rect x="888" y="592" width="176" height="38" rx="19" fill="#EFF6FF"/>
+    <text x="976" y="617" text-anchor="middle" class="font pill-text">自动补全建议</text>
+  </g>
+
+  <!-- Card 5 -->
+  <g filter="url(#cardShadow)">
+    <rect x="1126" y="246" width="228" height="406" rx="26" fill="white" stroke="#E6ECF5"/>
+    <text x="1240" y="328" text-anchor="middle" class="font card-title">AI Commit</text>
+    <text x="1240" y="397" text-anchor="middle" class="font card-desc">收尾更快更稳</text>
+    <rect x="1155" y="462" width="170" height="38" rx="19" fill="#EAF8F1"/>
+    <text x="1240" y="487" text-anchor="middle" class="font pill-text">生成 Commit</text>
+    <rect x="1155" y="515" width="170" height="62" rx="14" fill="#EAF8F1"/>
+    <text x="1240" y="542" text-anchor="middle" class="font pill-text">自动写 Commit</text>
+    <text x="1240" y="565" text-anchor="middle" class="font pill-text">Message</text>
+    <rect x="1155" y="592" width="170" height="38" rx="19" fill="#EAF8F1"/>
+    <text x="1240" y="617" text-anchor="middle" class="font pill-text">记录变更</text>
+  </g>
+
+  <!-- Card 6 -->
+  <g filter="url(#cardShadow)">
+    <rect x="1389" y="246" width="222" height="406" rx="26" fill="white" stroke="#E6ECF5"/>
+    <text x="1500" y="328" text-anchor="middle" class="font card-title">Figma MCP</text>
+    <text x="1500" y="397" text-anchor="middle" class="font card-desc">设计上下文直连</text>
+    <text x="1500" y="430" text-anchor="middle" class="font card-desc">实现建议更准确</text>
+    <rect x="1423" y="581" width="154" height="38" rx="19" fill="#EAFBFF"/>
+    <text x="1500" y="606" text-anchor="middle" class="font" fill="#19A8BD" font-size="16" font-weight="850">设计对齐</text>
+  </g>
+
+  <!-- Timeline -->
+  <line x1="70" y1="698" x2="1602" y2="698" stroke="#C9D5E8" stroke-width="2" stroke-dasharray="3 4"/>
+  <g filter="url(#nodeShadow)">
+    <circle cx="169" cy="698" r="22" fill="white"/>
+    <circle cx="169" cy="698" r="17" fill="url(#node1)"/>
+    <text x="169" y="705" text-anchor="middle" class="font" fill="white" font-size="15" font-weight="900">01</text>
+    <text x="169" y="750" text-anchor="middle" class="font timeline-text">对齐问题</text>
+  </g>
+  <g filter="url(#nodeShadow)">
+    <circle cx="435" cy="698" r="22" fill="white"/>
+    <circle cx="435" cy="698" r="17" fill="url(#node2)"/>
+    <text x="435" y="705" text-anchor="middle" class="font" fill="white" font-size="15" font-weight="900">02</text>
+    <text x="435" y="750" text-anchor="middle" class="font timeline-text">结构化思考</text>
+  </g>
+  <g filter="url(#nodeShadow)">
+    <circle cx="708" cy="698" r="22" fill="white"/>
+    <circle cx="708" cy="698" r="17" fill="url(#node3)"/>
+    <text x="708" y="705" text-anchor="middle" class="font" fill="white" font-size="15" font-weight="900">03</text>
+    <text x="708" y="750" text-anchor="middle" class="font timeline-text">规范驱动</text>
+  </g>
+  <g filter="url(#nodeShadow)">
+    <circle cx="974" cy="698" r="22" fill="white"/>
+    <circle cx="974" cy="698" r="17" fill="url(#node4)"/>
+    <text x="974" y="705" text-anchor="middle" class="font" fill="white" font-size="15" font-weight="900">04</text>
+    <text x="974" y="750" text-anchor="middle" class="font timeline-text">编码护栏</text>
+  </g>
+  <g filter="url(#nodeShadow)">
+    <circle cx="1228" cy="698" r="22" fill="white"/>
+    <circle cx="1228" cy="698" r="17" fill="url(#node5)"/>
+    <text x="1228" y="705" text-anchor="middle" class="font" fill="white" font-size="15" font-weight="900">05</text>
+    <text x="1228" y="750" text-anchor="middle" class="font timeline-text">自动收尾</text>
+  </g>
+  <g filter="url(#nodeShadow)">
+    <circle cx="1494" cy="698" r="22" fill="white"/>
+    <circle cx="1494" cy="698" r="17" fill="url(#node6)"/>
+    <text x="1494" y="705" text-anchor="middle" class="font" fill="white" font-size="15" font-weight="900">06</text>
+    <text x="1494" y="750" text-anchor="middle" class="font timeline-text">设计直连</text>
+  </g>
+
+  <!-- Value bar -->
+  <g filter="url(#cardShadow)">
+    <rect x="62" y="808" width="1548" height="92" rx="28" fill="white" stroke="#E6ECF5"/>
+    <text x="118" y="863" class="font" fill="#07142F" font-size="24" font-weight="920" letter-spacing="-0.2">核心价值</text>
+    <text x="356" y="862" class="font" fill="#56647D" font-size="17" font-weight="650">减少上下文切换</text>
+    <line x1="503" y1="842" x2="503" y2="864" stroke="#E5ECF6"/>
+    <text x="540" y="862" class="font" fill="#56647D" font-size="17" font-weight="650">降低沟通成本</text>
+    <line x1="679" y1="842" x2="679" y2="864" stroke="#E5ECF6"/>
+    <text x="716" y="862" class="font" fill="#56647D" font-size="17" font-weight="650">提升交付质量</text>
+    <line x1="865" y1="842" x2="865" y2="864" stroke="#E5ECF6"/>
+    <text x="902" y="862" class="font" fill="#56647D" font-size="17" font-weight="650">加速迭代闭环</text>
+  </g>
+</svg>
