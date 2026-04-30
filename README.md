@@ -60,6 +60,16 @@ npm run build
 
 构建产物会输出到 `dist/`，该目录已被 `.gitignore` 忽略。
 
+## Vercel 部署
+
+项目已提供 `vercel.json`，用于固定 Vercel 的构建配置：
+
+- Build Command：`npm run build`
+- Output Directory：`dist`
+- Rewrites：所有路由回退到 `/index.html`
+
+如果在 Vercel 控制台手动配置，也需要保持以上设置一致。否则可能出现部署成功但访问页面 404 的情况。
+
 ## 导出
 
 ```bash
