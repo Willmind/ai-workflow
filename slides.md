@@ -6,6 +6,7 @@ info: |
 layout: cover
 class: cover-slide
 css: styles.css
+transition: fade
 ---
 
 <div class="cover-shell">
